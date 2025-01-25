@@ -8,3 +8,17 @@ QUESTION 2 :
 Il fallait modifier une variable "android:text" dans le TextView
 
 QUESTION 3 : 
+Pour changer l'icône, j'ai modifié le fichier : AndroidManifest.xml avec les deux lignes suivantes : 
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+
+Et pour cela, j'ai dû modifier les fichiers : ic_launcher & ic_launcher_round pour ajouter mon image pour l'icône
+
+QUESTION 4 : 
+Il n'est pas nécessaire car les données sont récupérées et sont automatiquement mises à jour dans la seconde vue.
+
+QUESTION 5 : 
+Non, ce n'est pas normal, on doit pouvoir cliquer pour mettre à jour, pas que ça se fasse tout seul
+
+QUESTION 6 : 
+Stocker tout cela dans une variable que l'on affecte au bouton. C'est une fois uniquement que le bouton a été solicité, que le texte se met à jour
