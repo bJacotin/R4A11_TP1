@@ -21,4 +21,4 @@ QUESTION 5 :
 Non, ce n'est pas normal, on doit pouvoir cliquer pour mettre à jour, pas que ça se fasse tout seul
 
 QUESTION 6 : 
-Stocker tout cela dans une variable que l'on affecte au bouton. C'est une fois uniquement que le bouton a été solicité, que le texte se met à jour
+Pour ne pas afficher le nouveau texte sur la 2è activité tant que le bouton valider n'a pas été cliquer, il est possible d'effectuer des conditions dans les listeners des boutons valider & next. On initalise une variable "var" texteValide. On va essayer via des conditions pour vérifier si le texte n'est pas vide. S'il ne l'est pas, on changer le editText par texteValide dans l'écouteur du bouton valider. Ensuite, on vérifie si texteValide n'est pas vide. Si ce n'est pas le cas, on passe à vue suivante en cliquant sur "Next". Sinon, il n'est pas possible de passer à la vue suivante.
