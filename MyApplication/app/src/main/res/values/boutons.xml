@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validate_button_text">Valider</string>
+    <string name="next_button_text">Next</string>
+    <string name="previous_button_text">Previous</string>
+</resources>
