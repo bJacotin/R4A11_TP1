@@ -15,7 +15,7 @@ Pour changer l'icône, j'ai modifié le fichier : AndroidManifest.xml avec les d
 Et pour cela, j'ai dû modifier les fichiers : ic_launcher & ic_launcher_round pour ajouter mon image pour l'icône
 
 QUESTION 4 : 
-Il n'est pas nécessaire car les données sont récupérées et sont automatiquement mises à jour dans la seconde vue.
+Non, il n'est pas nécessaire de cliquer sur le bouton valider pour afficher le texte saisi sur la seconde activité. Il n'y a pas de listener et même quand on appuie pas sur valider, ça met le texte qu'on a commencé à écrire
 
 QUESTION 5 : 
 Non, ce n'est pas normal, on doit pouvoir cliquer pour mettre à jour, pas que ça se fasse tout seul
